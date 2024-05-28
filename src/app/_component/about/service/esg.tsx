@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-export default function Discover() {
+export default function ESG() {
     return (
         <div className="flex flex-col items-center bg-gradient-to-t from-[#FFFFFF] to-transparent relative">
             <div className="absolute inset-0 z-0">
@@ -39,8 +39,9 @@ export default function Discover() {
                             Social
                         </span>
                         <p className="mt-[10px] text-base text-[#424242] text-[20px]">
-                           We prioritize promoting digital literacy and STEM education in communities, 
-                           as well as supporting diversity, equality, and inclusion within our.
+                            We prioritize promoting digital literacy and STEM education in communities,
+                            as well as supporting diversity, equality, and inclusion within our
+                            organization.
                         </p>
                     </div>
                     <div className="flex-1 box-border bg-white h-[214px] w-[334px] p-[20px] rounded-lg shadow-2xl">
