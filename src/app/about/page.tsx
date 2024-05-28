@@ -1,10 +1,10 @@
 import Image from "next/image";
 import Footer from "@/app/_component/layouts/footer";
 import Navbar from "@/app/_component/layouts/navbar";
-import Explain from "@/app/_component/explain/index";
-import Change from "@/app/_component/change/index";
-import Discover from "@/app/_component/discover/index";
-import ESG from "@/app/_component/esg/index";
+import Explain from "@/app/_component/about/service/explain";
+import Change from "@/app/_component/about/service/change";
+import Discover from "@/app/_component/about/service/discover";
+import ESG from "@/app/_component/about/service/esg";
 
 export default function About() {
     return (

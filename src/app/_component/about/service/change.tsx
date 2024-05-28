@@ -17,7 +17,7 @@ export default function Change() {
                         <span className="text-[#E71E26] text-center font-bold text-[40px]">
                             Digital Transformation
                         </span>
-                        <p className="mt-[10px] text-base text-[#424242] text-[20px]">
+                        <p className="mt-[10px] max-w-screen-lg mx-auto text-base text-[#424242] text-[20px]">
                             At Zenix, we believe that embracing digital transformation is crucial
                             for staying ahead in today's rapidly evolving technology landscape.
                             We are on a continuous journey to integrate cutting-edge digital solutions

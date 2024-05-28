@@ -40,8 +40,7 @@ export default function Discover() {
                         </span>
                         <p className="mt-[10px] text-base text-[#424242] text-[20px]">
                            We prioritize promoting digital literacy and STEM education in communities, 
-                           as well as supporting diversity, equality, and inclusion within our 
-                           organization.
+                           as well as supporting diversity, equality, and inclusion within our.
                         </p>
                     </div>
                     <div className="flex-1 box-border bg-white h-[214px] w-[334px] p-[20px] rounded-lg shadow-2xl">
