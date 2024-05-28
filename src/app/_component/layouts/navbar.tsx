@@ -27,7 +27,7 @@ const Navbar = () => {
   return (
     <nav className="w-full">
       <div className="max-w-screen-2xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center rounded-full bg-white shadow-gray-950 justify-between h-16">
+        <div className="flex items-center rounded-full bg-white shadow-2xl justify-between h-16">
           {links.map((link, index) => (
             <div
               key={index}

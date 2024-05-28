@@ -7,7 +7,10 @@ const Product = () => {
     <div className="flex flex-col max-w-screen-lg mx-auto mt-[100px]">
       {ProductList.map((product, index) => {
         return (
-          <div className="flex items-center mb-[100px]">
+          <div
+            className="flex items-center mb-[100px] shadow-2xl p-[50px]"
+            key={index}
+          >
             <div className="flex flex-col mr-4">
               <span className=" font-bold text-[24px] text-[#424242]">
                 {product.name}

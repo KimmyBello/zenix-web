@@ -9,8 +9,8 @@ const UniQue = () => {
           Discover Our Unique Advantages
         </span>
       </div>
-      <div className="flex mt-[50px]">
-        <div className="flex-1">
+      <div className="flex gap-11 mt-[50px]">
+        <div className="flex-1 p-[20px] rounded-lg shadow-2xl">
           <span className="text-[#424242] font-bold text-[20px]">
             Innovative Solutions
           </span>
@@ -25,7 +25,7 @@ const UniQue = () => {
             are tailored to their needs.
           </p>
         </div>
-        <div className="flex-1">
+        <div className="flex-1 p-[20px] rounded-lg shadow-2xl">
           <span className="text-[#424242] font-bold text-[20px]">
             Proven Expertise
           </span>
@@ -40,7 +40,7 @@ const UniQue = () => {
             projects that achieve tangible results.
           </p>
         </div>
-        <div className="flex-1">
+        <div className="flex-1 p-[20px] rounded-lg shadow-2xl">
           <span className="text-[#424242] font-bold text-[20px]">
             Client-Centric Approach
           </span>

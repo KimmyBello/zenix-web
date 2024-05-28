@@ -13,13 +13,13 @@ const WorkWithBrand = () => {
       </div>
       <div className="flex justify-center mt-[20px]">
         <p className="text-[#616161] text-[16px] font-normal">
-          We're honored to collaborate with forward-thinking organizations on
-          the cutting-edge of digital transformation.
+          We&apos;re honored to collaborate with forward-thinking organizations
+          on the cutting-edge of digital transformation.
         </p>
       </div>
       <div className="flex gap-[20px]">
         {BrandList.map((brand, index) => (
-          <div className="flex-1">
+          <div className="flex-1" key={index}>
             <Image
               src={brand.icon}
               alt={brand.name}
