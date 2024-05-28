@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Discover() {
     return (
-        <div className="flex flex-col items-center h-full bg-gradient-to-t from-[#FFFFFF] to-transparent">
+        <div className="flex flex-col items-center bg-gradient-to-t from-[#FFFFFF] to-transparent">
             <div className="mt-[80px]">
                 <p className="text-center font-bold text-[40px] mb-[50px]">
                     Discover Our Unique Advantages

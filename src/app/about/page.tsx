@@ -15,10 +15,8 @@ export default function About() {
                 <Change />
                 <Discover />
                 <ESG />
-            </div>
-            {/* <div className="mt-3">
                 <Footer />
-            </div> */}
+            </div>
         </main>
     );
 }
