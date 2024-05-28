@@ -1,7 +1,10 @@
 "use client";
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import Link from "next/link";
+import { usePathname } from "next/navigation";
+
 const Navbar = () => {
+  const pathname = usePathname();
   const [currentPage, setCurrentPage] = useState("Home");
 
   const links = [
@@ -12,6 +15,15 @@ const Navbar = () => {
     { text: "Showcase", url: "/showcase" },
     { text: "Contact", url: "/contact" },
   ];
+
+  useEffect(() => {
+    // ตั้งค่า currentPage โดยอิงจากเส้นทางปัจจุบัน
+    const currentLink = links.find(link => link.url === pathname);
+    if (currentLink) {
+      setCurrentPage(currentLink.text);
+    }
+  }, [pathname]);
+
   return (
     <nav className="w-full">
       <div className="max-w-screen-2xl mx-auto px-4 sm:px-6 lg:px-8">
