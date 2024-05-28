@@ -1,5 +1,5 @@
 "use client";
-import React, { useState } from "react";
+import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { Button } from "@nextui-org/button";
@@ -10,7 +10,7 @@ const Welcome = () => {
       <div className="mt-[80px]">
         <Image
           src="/assets/images/etc/logo.svg"
-          alt="codinghub"
+          alt="zenix logo"
           width={133}
           height={160}
         />
@@ -33,11 +33,13 @@ const Welcome = () => {
         enhance performance in your industry.
       </p>
       <div className="flex items-center justify-center gap-12 mt-[73px]">
-        <Link href="/" className="text-[#424242] font-bold text-[14px]">
-          Show Case
+        <Link href="/">
+          <p className="text-[#424242] font-bold text-[14px]">Show Case</p>
         </Link>
         <Button className="bg-[#E71E26]">
-          <p className="flex items-center font-bol text-[14px] text-white">Explore Our Solution</p>
+          <p className="flex items-center font-bold text-[14px] text-white">
+            Explore Our Solution
+          </p>
         </Button>
       </div>
     </div>

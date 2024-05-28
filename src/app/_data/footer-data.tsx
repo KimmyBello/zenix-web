@@ -1,6 +1,6 @@
-import { Link, IconText } from "@/app/_type/type-footer";
+import { TypeLink, TypeIconText } from "@/app/_type/type-footer";
 
-export const menu: Link[] = [
+export const menu: TypeLink[] = [
   {
     name: "Home",
     link: "/",
@@ -15,7 +15,7 @@ export const menu: Link[] = [
   },
 ];
 
-export const services: Link[] = [
+export const services: TypeLink[] = [
   {
     name: "Digital Products",
     link: "/#",
@@ -30,7 +30,7 @@ export const services: Link[] = [
   },
 ];
 
-export const contact: IconText[] = [
+export const contact: TypeIconText[] = [
   {
     icon: "/assets/icons/phone.svg",
     text: "(66) 2513 6785 - 6",
@@ -53,7 +53,7 @@ export const contact: IconText[] = [
   },
 ];
 
-export const contactDark: IconText[] = [
+export const contactDark: TypeIconText[] = [
   {
     icon: "/assets/icons/phonedark.svg",
     text: "(66) 2513 6785 - 6",
